@@ -1,0 +1,149 @@
+
+
+.roboto-uniquifier {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.playwrite-nz-guides-regular {
+  font-family: "Playwrite NZ Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 500,
+  'GRAD' 100,
+  'opsz' 64
+}
+
+.roboto-uniquifier {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.science-gothic-uniquifier {
+  font-family: "Science Gothic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "CTRS" 0;
+}
+.bungee-spice-regular {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.roboto-uniquifier {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/*Cosas que piden*/
+.Contenedor{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Contenedor h1{
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: aqua;
+    min-width: 20%;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+}
+.Contenedor h2{
+    border-radius: 1rem;
+    text-align: center;
+    background-color: aqua;
+    min-width: 20%;
+    font-weight: 200;
+    letter-spacing: 0.2rem;
+    line-height: 2rem;
+    
+}
+.Contenedor h3{
+    border-radius: 1rem;
+    text-align: center;
+    background-color: aqua;
+    min-width: 20%;
+    font-weight: 300;
+    letter-spacing: 0.4rem;
+    line-height: 2rem;
+}
+
+.icon{
+    display: flex;
+    align-items: baseline;
+}
+
+.icon > div {
+    padding-top: 5px;
+}
+
+.icon2{
+    display: flex;
+    align-items: baseline;
+    
+
+}
+.parrafo{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    min-width: 20%;
+    background-color: aquamarine;
+    
+}
+.parrafo p{
+    display: flex;
+    background-color: aquamarine;
+    font-size: 2rem;
+}
+
+.boton{
+    padding: 2rem;
+    border-radius: 3rem;
+    justify-content: center;
+    display: flex;
+    margin-top: 2REM;
+    background-color: aqua;
+    cursor: pointer;
+    max-width: 15%;
+    
+}
+.boton:hover{
+    color: green;
+    transition: 
+        transform 0.3s ease-out,
+        box-shadow 0.3s ease-in-out,
+        background 0.3s linear;
+    letter-spacing: 1em;
+    transform: scale(1.07);
+    box-shadow: 0px 10px 20px black;
+    background: #333;
+}
